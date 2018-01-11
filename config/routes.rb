@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   get 'welcome/index'
+  get 'new' => 'docs#new'
   root 'welcome#index'
   
   resources :docs
